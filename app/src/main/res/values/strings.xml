@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yatri IDE</string>
+    <string name="login_title">Login to Yatri IDE</string>
+    <string name="register_title">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="compile">Compile</string>
+    <string name="save">Save</string>
+    <string name="my_codes">My Codes</string>
+    <string name="new_here">New here? Register</string>
+    <string name="already_account">Already have account? Login</string>
+</resources>
