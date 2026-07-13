@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/compileBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="▶️ Compile"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="💾 Save"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/myCodesBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📂 My Codes"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🚪 Logout" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/codeEditor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Write your code here..."
+        android:gravity="top"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <TextView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Ready"
+        android:textSize="12sp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Output will appear here..."
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="12sp" />
+</LinearLayout>
